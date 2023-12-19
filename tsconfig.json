@@ -19,7 +19,7 @@
     "./src/**/*",
     "types/env.d.ts",
     "types/auto-imports.d.ts",
-    "types/components.d.ts",
+    "types/auto-components.d.ts",
     "types/page.d.ts"
   ]
 }

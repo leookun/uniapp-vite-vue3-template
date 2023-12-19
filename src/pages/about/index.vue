@@ -8,7 +8,7 @@
 </template>
 
 <script setup lang="ts">
-import useContext from '@/hooks/useContext'
+import { useContext } from '@/hooks/useContext'
 const pages = useContext('$pages')
 const state = useContext('$state')
 const APP_INFO = useContext('$APP_INFO')
