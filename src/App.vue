@@ -1,13 +1,4 @@
 <script setup lang="ts">
-import { onHide, onLaunch, onShow } from "@dcloudio/uni-app";
-onLaunch(() => {
-  console.log("App Launch");
-});
-onShow(() => {
-  console.log("App Show");
-});
-onHide(() => {
-  console.log("App Hide");
-});
+import useApplication from "@/hooks/useApplication";
+useApplication()
 </script>
-<style></style>

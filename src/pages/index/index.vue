@@ -1,16 +1,17 @@
 <template>
-  <div>
-    index
+  <div class="text-30rpx">
     {{ JSON.stringify(pages) }}
     {{ JSON.stringify(state) }}
-    <button @click="state.count++">add</button>
+    {{ JSON.stringify(APP_INFO) }}
+     <button @click="state.count++">add</button>
   </div>
 </template>
 
 <script setup lang="ts">
-import state from "@/state";
-import { pages } from 'virtual:uni-pages';
-
+import useContext from "@/hooks/useContext";
+const pages=useContext('$pages')
+const state=useContext('$state')
+const APP_INFO=useContext('$APP_INFO')
 </script>
 
 <style scoped>
