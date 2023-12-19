@@ -5,8 +5,8 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "command": "pnpm dev:mp-weixin",
-      "name": "dev:mp-weixin",
+      "command": "pnpm dev",
+      "name": "dev",
       "request": "launch",
       "type": "node-terminal"
     }

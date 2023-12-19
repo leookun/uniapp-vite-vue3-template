@@ -1,8 +1,8 @@
 import Uni from '@dcloudio/vite-plugin-uni'
+import Components from '@uni-helper/vite-plugin-uni-components'
 import { resolve } from 'path'
 import UnoCSS from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
-import Components from 'unplugin-vue-components/vite'
 import { defineConfig } from 'vite'
 import UniPages, { presetPageMeta } from 'vite-plugin-uni-pages'
 export default defineConfig(() => {
@@ -16,8 +16,6 @@ export default defineConfig(() => {
           dts: 'types/page.d.ts'
         })
       ),
-      Uni(),
-      UnoCSS(),
       Components({
         include: [/\.[tj]sx?$/, /\.vue$/, /\.vue\?vue/],
         globs: ['src/components/*/index.ts', 'src/components/*/index.vue'],
@@ -31,7 +29,9 @@ export default defineConfig(() => {
         eslintrc: {
           enabled: false // Default `false`
         }
-      })
+      }),
+      Uni(),
+      UnoCSS()
     ]
   }
 })
