@@ -10,7 +10,7 @@ export default defineConfig(() => {
     plugins: [
       UniPages(
         presetPageMeta({
-          showLog: true,
+          showLog: false,
           mergePages: true,
           configSource: (resolve) => resolve('pages.config.ts'),
           dts: 'types/page.d.ts'
