@@ -1,0 +1,45 @@
+{
+   	// The maximum number of items to show in autocomplete
+	"unocss.autocomplete.maxItems": 1000,
+
+	// Enable/disable color preview decorations
+	"unocss.colorPreview": true,
+
+	// Disable the UnoCSS extension
+	"unocss.disable": false,
+
+	// Directory of files not to be detected
+	"unocss.exclude": [
+	],
+
+	// Directory of files to be detected
+	"unocss.include": [
+		"src/**/*.vue"
+	],
+
+	// 
+	"unocss.languageIds": [],
+
+	// Enable/disable rem to px preview in hover
+	"unocss.remToPxPreview": false,
+
+	// Ratio of rem to px
+	"unocss.remToPxRatio": 16,
+
+	// Project root that contains the UnoCSS configuration file
+	"unocss.root": [
+		".",".packages/project"
+	],
+
+	// Enable/disable selection style decorations
+	"unocss.selectionStyle": true,
+
+	// Enable/disable underline decoration for class names
+	"unocss.underline": true,
+
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    }
+}

@@ -1,5 +1,5 @@
 <template>
-  <div>
+ <div class="text-30rpx">
     {{ JSON.stringify(pages) }}
     {{ JSON.stringify(state) }}
     {{ JSON.stringify(APP_INFO) }}

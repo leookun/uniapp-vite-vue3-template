@@ -1,6 +1,12 @@
 {
   "extends": "@vue/tsconfig/tsconfig.json",
   "compilerOptions": {
+     "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "allowJs": true,
+    "jsx": "preserve",
+    "composite": true,
     "sourceMap": true,
     "baseUrl": ".",
     "paths": {
@@ -9,5 +15,5 @@
     "lib": ["esnext", "dom"],
     "types": ["@dcloudio/types"],
   },
-  "include": ["src/**/*.ts", "types/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+  "include": ["./src/**/*", "tyeps/env.d.ts", "tyeps/auto-imports.d.ts", "tyeps/components.d.ts"],
 }
