@@ -1,8 +1,8 @@
 /// <reference types="vite/client" />
-/// <reference types="@uni-helper/vite-plugin-uni-pages/client" />
-declare module "*.vue" {
-  import { DefineComponent } from "vue";
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/ban-types
-  const component: DefineComponent<{}, {}, any>;
-  export default component;
+/// <reference types="vite-plugin-uni-pages/client" />
+/// <reference types='@dcloudio/types' />
+import "vue";
+declare module "@vue/runtime-core" {
+  type Hooks = App.AppInstance & Page.PageInstance;
+  interface ComponentCustomOptions extends Hooks {}
 }

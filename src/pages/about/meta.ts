@@ -1,6 +1,7 @@
-const definePageMeta = (v: any) => v;
+import { definePageMeta } from "vite-plugin-uni-pages";
 export default definePageMeta({
   style: {
-    navigationBarTitleText: "组ddd件",
+    navigationBarTitleText: "你好",
+    navigationBarBackgroundColor: "#ff00ff",
   },
 });

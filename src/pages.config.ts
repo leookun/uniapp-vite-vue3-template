@@ -1,7 +1,16 @@
-import { defineUniPages } from "@uni-helper/vite-plugin-uni-pages";
+import { defineUniPages } from "vite-plugin-uni-pages";
 export default defineUniPages({
-  globalStyle: {
-    navigationBarTextStyle: "white",
-    navigationBarTitleText: "@uni-helper2121",
+  globalStyle: {},
+  tabBar: {
+    list: [
+      {
+        pagePath: "pages/index/index",
+        text: "index",
+      },
+      {
+        pagePath: "pages/about/index",
+        text: "about",
+      },
+    ],
   },
 });
