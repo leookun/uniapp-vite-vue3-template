@@ -7,7 +7,10 @@ export default defineConfig(() => {
   return {
     plugins: [
       UniPages(
-        Object.assign(presetPageMeta(), {
+        presetPageMeta({
+          showLog: true,
+          mergePages: true,
+          configSource: (resolve) => resolve("pages.config.ts"),
           dts: "types/page.d.ts",
         })
       ),

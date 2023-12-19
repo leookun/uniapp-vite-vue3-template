@@ -5,4 +5,7 @@
 </template>
 
 <script setup lang="ts">
+uni.switchTab<NavigateToOptions>({
+    url:"/pages/about/index"
+})
 </script>

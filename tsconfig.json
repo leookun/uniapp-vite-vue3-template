@@ -15,5 +15,5 @@
     "lib": ["esnext", "dom"],
     "types": ["@dcloudio/types"],
   },
-  "include": ["./src/**/*", "tyeps/env.d.ts", "tyeps/auto-imports.d.ts", "tyeps/components.d.ts"],
+  "include": ["./src/**/*", "types/env.d.ts", "types/auto-imports.d.ts", "types/components.d.ts","types/page.d.ts"],
 }

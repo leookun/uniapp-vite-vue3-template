@@ -11,6 +11,10 @@ export default defineUniPages({
         text: "index",
       },
       {
+        pagePath: "pages/more/index",
+        text: "more",
+      },
+      {
         pagePath: "pages/about/index",
         text: "about",
       },

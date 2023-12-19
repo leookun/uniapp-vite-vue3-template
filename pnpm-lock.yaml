@@ -89,8 +89,8 @@ devDependencies:
     specifier: 4.1.4
     version: 4.1.4(terser@5.26.0)
   vite-plugin-uni-pages:
-    specifier: ^0.2.19
-    version: 0.2.19(@types/lodash-es@4.17.12)(lodash-es@4.17.21)(lodash@4.17.21)
+    specifier: ^0.2.23
+    version: 0.2.23(@types/lodash-es@4.17.12)(lodash-es@4.17.21)(lodash@4.17.21)
   vue-tsc:
     specifier: ^1.0.24
     version: 1.0.24(typescript@4.9.4)
@@ -6943,8 +6943,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vite-plugin-uni-pages@0.2.19(@types/lodash-es@4.17.12)(lodash-es@4.17.21)(lodash@4.17.21):
-    resolution: {integrity: sha512-aqdoulpy6ZWJcAZjYiKgmTl/8veI4G0E/Pt/Gw/K2QuNz2zDeMAr6Y0Xr5KBu7wbccKtueBEWGg8ybD0Yq+T0w==}
+  /vite-plugin-uni-pages@0.2.23(@types/lodash-es@4.17.12)(lodash-es@4.17.21)(lodash@4.17.21):
+    resolution: {integrity: sha512-lRlfj/ifQtoxO0WA4UZ7QkUieLqFnMOPMiPSnZ0eTMul5r9P0Zy9+Vb/NuvJIdDzlOwQ9BOvesx51pHlrDLyEQ==}
     dependencies:
       '@uni-helper/uni-env': 0.0.3
       '@vue/compiler-sfc': 3.3.12
