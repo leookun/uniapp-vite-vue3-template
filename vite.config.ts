@@ -1,5 +1,6 @@
 import Uni from '@dcloudio/vite-plugin-uni'
 import Components from '@uni-helper/vite-plugin-uni-components'
+import UniManifest from '@uni-helper/vite-plugin-uni-manifest'
 import { resolve } from 'path'
 import UnoCSS from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
@@ -8,6 +9,7 @@ import UniPages, { presetPageMeta } from 'vite-plugin-uni-pages'
 export default defineConfig(() => {
   return {
     plugins: [
+      UniManifest(),
       UniPages(
         presetPageMeta({
           showLog: false,
@@ -31,6 +33,7 @@ export default defineConfig(() => {
         }
       }),
       Uni(),
+
       UnoCSS()
     ]
   }

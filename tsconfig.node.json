@@ -1,6 +1,6 @@
 {
   "extends": "@tsconfig/node18/tsconfig.json",
-  "include": ["vite.config.*", "unocss.config.*", "pages.config.*"],
+  "include": ["vite.config.*", "unocss.config.*", "pages.config.*", "manifest.config.*"],
   "compilerOptions": {
     "noImplicitAny": false,
     "composite": true,
