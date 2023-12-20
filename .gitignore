@@ -2,7 +2,7 @@
 logs
 *.log
 pages.json
-manifest.json
+
 auto-components.d.ts
 auto-imports.d.ts
 page.d.ts
