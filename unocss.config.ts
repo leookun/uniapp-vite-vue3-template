@@ -1,5 +1,5 @@
 import transformerDirectives from '@unocss/transformer-directives'
-import { presetIcons } from 'unocss'
+import { presetIcons, type UserConfig } from 'unocss'
 import presetWeapp from 'unocss-preset-weapp'
 import { extractorAttributify, transformerClass } from 'unocss-preset-weapp/transformer'
 
@@ -33,4 +33,4 @@ export default {
     // https://github.com/MellowCo/unocss-preset-weapp/tree/main/src/transformer/transformerClass
     transformerClass()
   ]
-}
+} as UserConfig

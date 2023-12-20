@@ -1,0 +1,26 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": [
+    "src/**/*.vue",
+    "src/**/*.ts",
+    "src/**/*.js",
+    "types/env.d.ts",
+    "types/auto-imports.d.ts",
+    "types/auto-components.d.ts",
+    "types/page.d.ts"
+  ],
+  "compilerOptions": {
+    "types": ["@dcloudio/types"],
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "allowJs": true,
+    "jsx": "preserve",
+    "composite": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
