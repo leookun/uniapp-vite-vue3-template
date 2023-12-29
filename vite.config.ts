@@ -3,11 +3,13 @@ import Components from '@uni-helper/vite-plugin-uni-components'
 import { resolve } from 'path'
 import UnoCSS from 'unocss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
+import DefineOptions from 'unplugin-vue-define-options/vite'
 import { defineConfig } from 'vite'
 import UniPages, { presetPageMeta } from 'vite-plugin-uni-pages'
 export default defineConfig(() => {
   return {
     plugins: [
+      DefineOptions(),
       UniPages(
         presetPageMeta({
           showLog: false,

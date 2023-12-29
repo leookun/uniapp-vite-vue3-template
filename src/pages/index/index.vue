@@ -1,6 +1,5 @@
 <template>
   <div>
-    <MyButton />
     <text class="text-30rpx break-words">
       {{ JSON.stringify(APP_INFO, null, 10) }}
       {{ JSON.stringify(state, null, 10) }}

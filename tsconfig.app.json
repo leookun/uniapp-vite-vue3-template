@@ -10,7 +10,7 @@
     "types/page.d.ts"
   ],
   "compilerOptions": {
-    "types": ["@dcloudio/types"],
+    "types": ["@dcloudio/types", "unplugin-vue-define-options/macros-global"],
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,

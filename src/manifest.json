@@ -49,6 +49,7 @@
 
   "mp-weixin": {
     "appid": "",
+    "mergeVirtualHostAttributes":true,
     "setting": {
       "urlCheck": false
     },
