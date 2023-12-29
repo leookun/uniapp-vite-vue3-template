@@ -16,10 +16,16 @@ export default {
     presetWeappAttributify(),
     presetIcons()
   ],
+  theme: {
+    colors: {
+      primary: 'var(--primary-color)'
+    }
+  },
+  rules: [['shadow-md', { 'box-shadow': `0 0rpx 10rpx 0 var(--shadow-color) ` }]],
   shortcuts: [
     {
-      'border-base': 'border border-gray-500_10',
-      center: 'flex justify-center items-center'
+      center: 'flex justify-center items-center',
+      transition: 'ease-in-out duration-300'
     }
   ],
   transformers: [
